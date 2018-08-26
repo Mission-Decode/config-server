@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Mission-Decode/microservices
+          uri: https://github.com/Mission-Decode/config-files
           search-paths:
-          - "config-files/{application}/{profile}"
+          - "{application}/{profile}"
